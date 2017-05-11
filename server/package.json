@@ -1,0 +1,40 @@
+{
+  "name": "swan-example-server",
+  "version": "0.0.2",
+  "description": "An example project to demonstrate several high-level components provided by SpoonX.",
+  "engines": {
+    "node": "6.9.1"
+  },
+  "keywords": [
+    "aurelia",
+    "todo",
+    "spoonx"
+  ],
+  "homepage": "http://spoonx.nl",
+  "bugs": {
+    "url": "https://github.com/spoonx/swan-example-server/issues"
+  },
+  "author": "RWOverdijk <wesley@spoonx.nl> (http://spoonx.nl/)",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^0.8.6",
+    "include-all": "~0.1.6",
+    "jsonwebtoken": "^6.1.1",
+    "rc": "1.0.1",
+    "request-helpers": "^2.1.0",
+    "sails": "~0.12.1",
+    "sails-disk": "~0.10.9",
+    "sails-hook-authorization": "0.0.3",
+    "sails-mysql": "^0.12.1",
+    "sails-postgresql": "^0.11.4"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spoonx/swan-example-server.git"
+  }
+}
